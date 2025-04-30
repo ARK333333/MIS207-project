@@ -7,6 +7,22 @@
 	<h1>About this Project</h1>
 
 	<p>
-		This project was made by 
+		This project was made by:
 	</p>
+
+		<ul>
+			<li>
+				Abdulraof Alkheder
+			</li>
+			<li>
+				Muhannad Abdu Alnami
+			</li>
+
+			<li>
+				Abdulaziz saad waggas
+			</li>
+			<li>
+				Abdulatif Basahel
+			</li>
+		</ul>
 </div>
