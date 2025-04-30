@@ -1,9 +1,16 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	--font-body:
-		Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-		'Open Sans', 'Helvetica Neue', sans-serif;
+	--font-body: 'Roboto', Arial, sans-serif;
+	--font-heading: 'Poppins', sans-serif;
+	--color-primary: #4a90e2;
+	--color-secondary: #50e3c2;
+	--color-accent: #f5a623;
+	--color-bg-light: #f9f9f9;
+	--color-bg-dark: #2c3e50;
+	--color-text-light: #ffffff;
+	--color-text-dark: #34495e;
+	--spacing-unit: 1rem;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: hsl(209, 36%, 86%);
@@ -13,13 +20,16 @@
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
-	font-family: var(--font-body);
-	color: var(--color-text);
 }
 
 body {
-	min-height: 100vh;
+	font-family: var(--font-body);
+	color: var(--color-text-dark);
+	background: var(--color-bg-light);
 	margin: 0;
+	padding: 0;
+	line-height: 1.6;
+	min-height: 100vh;
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
@@ -28,32 +38,105 @@ body {
 		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
 }
 
-h1,
-h2,
-p {
-	font-weight: 400;
-}
-
-p {
-	line-height: 1.5;
-}
-
-a {
-	color: var(--color-theme-1);
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
+h1, h2, h3 {
+	font-family: var(--font-heading);
+	color: var(--color-primary);
+	margin-bottom: var(--spacing-unit);
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	text-align: center;
 }
 
 h2 {
+	font-size: 2rem;
+}
+
+p {
 	font-size: 1rem;
+	margin-bottom: var(--spacing-unit);
+	line-height: 1.5;
+}
+
+a {
+	color: var(--color-accent);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: var(--color-secondary);
+	text-decoration: underline;
+}
+
+button {
+	font-family: var(--font-body);
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	background: var(--color-primary);
+	color: var(--color-text-light);
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+button:hover {
+	background: var(--color-secondary);
+}
+
+button:focus:not(:focus-visible) {
+	outline: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: var(--spacing-unit);
+}
+
+.card {
+	background: var(--color-bg-light);
+	border: 1px solid var(--color-bg-dark);
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: var(--spacing-unit);
+	margin-bottom: var(--spacing-unit);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: var(--color-bg-dark);
+	padding: var(--spacing-unit);
+	color: var(--color-text-light);
+}
+
+.navbar a {
+	color: var(--color-text-light);
+	margin: 0 var(--spacing-unit);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar a:hover {
+	color: var(--color-secondary);
+}
+
+.footer {
+	text-align: center;
+	padding: var(--spacing-unit);
+	background: var(--color-bg-dark);
+	color: var(--color-text-light);
+	margin-top: var(--spacing-unit);
 }
 
 pre {
@@ -80,10 +163,6 @@ input,
 button {
 	font-size: inherit;
 	font-family: inherit;
-}
-
-button:focus:not(:focus-visible) {
-	outline: none;
 }
 
 @media (min-width: 720px) {
