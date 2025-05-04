@@ -4,6 +4,55 @@
 </svelte:head>
 
 <div class="text-column">
+<!-- From Uiverse.io by kennyotsu --> 
+<div class="container noselect">
+	<div class="canvas">
+	  <div class="tracker tr-1"></div>
+	  <div class="tracker tr-2"></div>
+	  <div class="tracker tr-3"></div>
+	  <div class="tracker tr-4"></div>
+	  <div class="tracker tr-5"></div>
+	  <div class="tracker tr-6"></div>
+	  <div class="tracker tr-7"></div>
+	  <div class="tracker tr-8"></div>
+	  <div class="tracker tr-9"></div>
+	  <div class="tracker tr-10"></div>
+	  <div class="tracker tr-11"></div>
+	  <div class="tracker tr-12"></div>
+	  <div class="tracker tr-13"></div>
+	  <div class="tracker tr-14"></div>
+	  <div class="tracker tr-15"></div>
+	  <div class="tracker tr-16"></div>
+	  <div class="tracker tr-17"></div>
+	  <div class="tracker tr-18"></div>
+	  <div class="tracker tr-19"></div>
+	  <div class="tracker tr-20"></div>
+	  <div class="tracker tr-21"></div>
+	  <div class="tracker tr-22"></div>
+	  <div class="tracker tr-23"></div>
+	  <div class="tracker tr-24"></div>
+	  <div class="tracker tr-25"></div>
+	  <div id="card">
+	  <!-- <p id="prompt">HOVER OVER :D</p> -->
+	  	<h1>Conclusion</h1>
+	  </div>
+	</div>
+  </div>
+
+<div class="hover-container">
+	<div class="hover-item" id="hover-1">
+    <p>Implementing an Integrated Management Information System (IMIS) at SABIC will enhance operational efficiency, decision-making, and competitiveness.</p>
+	</div>
+  <div class="hover-item" id="hover-2">
+    <p> The system will automate routine tasks, improve data access, and provide real-time insights, streamlining processes across departments.</p>
+	</div>
+  <div class="hover-item" id="hover-2">
+    <p> It will strengthen customer and supplier relationships, while enabling data-driven decisions.</p>
+	</div>
+  <div class="hover-item" id="hover-2">
+    <p> Ultimately, the IMIS will support SABIC’s growth, help maintain its industry leadership, and align with its strategic goals for the future.</p>
+	</div>
+</div>
 
 <!-- From Uiverse.io by kennyotsu --> 
 <div class="container noselect">
@@ -58,6 +107,7 @@
     <a href="https://www.openai.com​">ChatGpt</a>
 	</div>
 </div>
+
 
 <style>
 /* From Uiverse.io by kennyotsu */ 
