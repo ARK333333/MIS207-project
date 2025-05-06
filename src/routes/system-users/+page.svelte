@@ -99,14 +99,25 @@
   
   <div class="hover-container">
     <div class="hover-item" id="hover-1">
-      <p>Software: AI for data analysis, ERP to manage resources, and a CDP = Corporate Digitalization Program to collect customer information.​</p>
-    </div>
-    <div class="hover-item" id="hover-2">
-      <p>Data Storage: Cloud storage with backups to keep data safe. ​</p>
+      <p>
+        •	ERP software (e.g., SAP): To manage financials, supply chain, and HR operations.</p>
+        <p>
+          •	Analytics tools (like Power BI): For data visualization.
+        </p>
+        <p>
+          •	Security software: To protect data , and guard against cyber threats.”​
+        </p>
     </div>
     <div class="hover-item" id="hover-3">
-      <p>Hardware: Powerful computers and devices to process data in real time.​</p>
-    </div>
+      <p>
+        •	Servers: High-performance servers like HPE or Dell EMC to run ERP systems. </p>
+        <p>
+          •Devices: Desktop computers, and mobile phones for accessing the system at various levels.
+        </p>
+        <p>
+          •	Networking Equipment: Routers and firewalls for secure and reliable connectivity.​
+        </p>
+        </div>
   </div>
 
 <style>
